@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --teksti: #333333;
+    --tausta: #eeeeee;
+    --vaaleafontti: white;
+    --taustaväri: #444444;
+    --highlight: rgb(104, 154, 5);
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Lato', sans-serif;
+    background-color: var(--tausta);
+    color: var(--teksti);
+}
+
+header{
+    background-color: var(--taustaväri);
+    padding: 10px;
+    color: var(--vaaleafontti);
+    height: 100px;
+  
+    width: 100%;
+    top: 0;
+    border-bottom: var(--highlight) solid 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+header nav a{
+    display: inline-block;
+    color: var(--vaaleafontti);
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.5em;
+
+}
+
+header nav a:hover {
+    color: var(--teksti);
+    background-color: var(--highlight);
+}
+
+main{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    padding-top: 80px;
+}
+
+
+section{
+    max-width: 1100px;
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+
+table {
+    padding-top: 30px;
+}
+
+table th {
+    padding-bottom: 25px;
+}
+
+.kappale {
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    
+}
+.sisältö{
+    line-height: normal;
+    position: relative;
+    text-align: center;
+}
+
+.pääotsikko{
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 25%;
+    width: 100%;
+    max-width: 100%;
+    color: var(--vaaleafontti);
+    line-height: normal;
+    background-color: black;
+    padding: 20px;
+
+
+}
+
+.johdanto{
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.sisältö .esittely{
+    width: 70%; 
+    margin: 0 auto;
+   
+}
+
+.sisältö h2 {
+    text-align: center;
+}
+
+
+footer{
+    background-color: var(--taustaväri);
+    color: var(--vaaleafontti);
+    padding: 15px;
+    text-align: center;
+
+}
+
+
